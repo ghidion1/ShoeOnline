@@ -18,6 +18,7 @@ const NewProduct = () => {
       setLoading(false);  
       return;  
     }  
+    //Nothin justt a try
     try {  
       await createProduct({ name, description, price });  
       navigate("/products");  
